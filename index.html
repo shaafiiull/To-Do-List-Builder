@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List Builder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="container">
+        <h1 id="header" class="header">To-Do List Builder</h1>
+
+        <form class="new-task-container box">
+            <input type="text" id="new-task" />
+            <input type="submit" id="addTask" value="Add Task" />
+        </form>
+
+        <div class="todo-list box">
+            <h2>Incomplete Tasks</h2>
+            <ul id="items">
+            </ul>
+        </div>
+        <!--todo-list-->
+        <div class="complete-list box">
+            <h2>Completed Tasks</h2>
+        </div>
+        <!--complete-list-->
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
